@@ -2,7 +2,7 @@
 
 ## Description
 
-As I created this Prework-Study-Guide-Webpage I had a lot of thoughts that were motivating me. My main motivation for this webpage was "career change"! I new I was going to have to really focus and dial in on taking good notes in order to complete this webpage. I created this project because I want a SOLID study guide while I am going through the bootcamp and I want whoever else that has access to have accurate and helpful information. So if you're going to take the KU bootcamp for coding I would recommend this webpage. During the creation of this wepage I have learned that that it takes a lot of time and true full focus in order to come up with the right information and knowing that I have done good research I hope that this page keeps others from having to dig so deep!
+As I created this Prework-Study-Guide-Webpage I had a lot of thoughts that were motivating me. My main motivation for this webpage was "career change"! I knew I was going to have to really focus and dial in on taking good notes in order to complete this webpage. I created this project because I want a SOLID study guide while I am going through the bootcamp. I want whoever else that has access, to have accurate and helpful information. So if you're going to take the KU bootcamp for coding I would recommend this webpage. During the creation of this wepage I have learned that that it takes a lot of time, and true full focus in order to come up with the right information and knowing that I have done good research I hope that this page keeps others from having to dig so deep!
 
 
 ## Installation

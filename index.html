@@ -18,8 +18,25 @@
 
         <h2>HTML</h2>
         <ul>
-          <li>The head element contains information about the webpage.</li>
-          <li>The body element represents the visible content shown to the user.</li>
+          <li>The < head > element contains information about the webpage.</li>
+          <li>The < title > element defines the title for a webpage.</li>
+          <li>The < style > element defines the CSS styles associated with a website. </li>
+          <li>The base element defines the base URL for a webpage.</li>
+          <li>The link element connects an external resource to the HTML document.</li>
+          <li>The meta element defines metadata such as the charactrer set, description, keywords, author, and viewport.</li>
+          <li>The < body > element represents the visible content shown to the user.</li>
+          <li>An element refers to the entire element from opening tag to closing tag, wheras a "tag" refers only to what appars inside the angle brackets.</li>
+          <li>h1-h6 elements represent the leel of heading a text block represents.</li>
+          <li>The < p > element stands for a paragraph or block of text.</li>
+          <li>There are 3 different types of list options. < ul >,< ol >, and < li >.</li>
+          <li>Adding an image you will use the < img scr=" "/ > element. You can also use < img alt=" " / >.</li>
+          <li>The < br > element creates a line of empty space, or a line break, between 2 blocks of content. </li>
+          <li>Speaking of the hyperlink, the < a > element (which stands for anchor) creates links to the same webpage or other webpages. The href attribute points to the URL for the link.</li>
+          <li>The < header > will appear on the top of the page. Remember that order matters from < h1 > to < h6 >.</li>
+          <li>The < footer > element appears at the bottom of the page . Normally will contain the author, copyright, contact, sitemap, and navigation. </li>
+          <li>You can add < section > elements to the < body > of the HTML document. A section element is a semantic element that defines a section in a document that contains thematic content.</li>
+          <li>Inside the "section" element, we use class attribute and id attribute. HTML uses the "id" attruibute as a way to identify elements and select them.</li>
+
         </ul>
       </section>
 
@@ -27,16 +44,40 @@
 
         <h2>CSS</h2>
         <ul>
+          <li>CSS stands for Cascading Style Sheets.</li>
+          <li>There are three ways to style a webpage using CSS: inline CSS, internal CSS style sheet, and external CSS style sheet.</li>
+          <li>When a developer wants to style an element directly in the HTML file, they use the <strong>inline CSS.</strong></li>
+          <li>It is also possible to embed an entire stylesheet directly in the HTML file using a < style > element in the < head > element. this <strong> internal style sheet </strong> contains CSS rules for the webpage in the head section of the HTML file. The rules only apply to that page, and you can configure CSS classes an IDs, which are used to identify elements, to style multiple elecment in the page code.</li>
+          <li> The most common way to style a webpage is by using <strong> external CSS style sheet.</strong></li>
+          <li>When using an external style sheet, we link the file using a < link > element placedd in the HTML's < head ></li>
+          <li><strong> NERD NOTE:</strong> Separation of concerns is a widely used term in web development and refers to separating code into different files based on use.</li>
+          <li> A selector and its declorations is called CSS RULE. An example is div { color: blue; text-align: justify;} 
+            <ul> "color:" and "text-align:" is called the Property.</ul>
+            <ul> "blue;" and "justify;" is called the value.</ul></li>
           <li>A margin indicates how much space we want around the outside of an element.</li>
           <li>A padding indicates how much space we want around the content inside an element.</li>
+          <li>Make sure when using the exteral style sheet  that you < link > it to the HTML file. </li>
+                <ul> < link rel="stylesheet" href="./assets/style.css"></ul><br>
+                <ul><li> The < link > element creates the connection to the external file.</li> </ul>
+                <ul><li> The "rel" attribute specifies the relationship between the current document and the linked document resource.</li></ul>
+                <ul><li> The "href" attribute specifies the location (URL) of the external resource.</li></ul>
         </ul>
 
-      </section>
+      </section>   
       
-      <section class="card" id="git-section">
+     <section class="card" id="git-section">
 
         <h2>Git</h2>
         <ul>
+          <li>cd </li>
+          <li>ls</li>
+          <li>When we have to add a changed file in our working directory to the staging area of Git. Use... Git add -A .  </li>
+          <li>We us the "add -A command to commit all files in the working branch. </li>
+          <li>git commit -m "enter text" ... is how you can commit them to our repository.</li>
+          <li>Use ... git pull origin main ... to pull in the base branch. You should see "Already up to date".</li>
+          <li>To push up all of the changes use ... git push origin feature/add-html ... </li>
+          <li>You will want to do a merge and do a "Pull Request" on your GitHub. Then navigate back to the main branch in GitHub.</li>
+          <li>Type in git checkout main the git pull origin main.</li>
           <li>git status: Checks what brancgh we are currently on.</li>
           <li>git checkout -b branch-name: Creates a new branch and switches to it.</li>
         </ul>
@@ -47,9 +88,44 @@
 
         <h2>JavaScript</h2>
         <ul>
+          <li>JavaScript is an object-oriented programming (OOP) language.</li>
           <li>A variable is a named container that allows us to store data in our code.</li>
-          <li>Control flow is the order in which a computer executes code in a script.</li>
-        </ul>
+          <li>The ".js" file extension indecates that this file is a JavaScript file.</li>
+          <li>In coding parlance, a variable is simply a named container that allows us to store data in our code. </li>
+          <li>To delcare a variable, use "var" keyword. then you give the variable a name. After you follow with an ="".</li>
+          <ul>var shape ="circle";</ul>
+          <li>In the example above, the "shape" is the name of the container, or variable , and the data it stores is "circle".</li>
+          <li>Note that each line of JavaScript code ends with a semicolon.</li>
+          <li>You can use the "console.log" <strong>method</strong> to output a message to the web console by adding an <strong>argunment.</strong></li>
+          <li>Use the <strong>Chrome DevTools!</strong></li>
+          <ul>Right click while looking at the browser, select "Inspect" from the  menu and click <strong>Console</strong>to open.</ul>
+          <li>Make sure you connect the script.js file to your index.html file. </li>
+          <li>We use "console.log" to confirm that the < script > tag that we added to "index.html" properly connected the script.js with index/html.</li>
+          <li><strong>Control flow</strong> is the order in which a computer executes code in a script.</li>
+          <li>Control flow can be interrupted, however. We can us <strong> conditional statement </strong> and <stong>loops</strong> to control the order in which code is executed, or if it is even executed at all.</li>
+          <li>An "if" statement is a way of introducing decision-making into our code. Just like its name sounds, when using the "if" statement, code will only execute <strong>if</strong> the statement meets a condition, or is true.</li>
+          <li>To create an "if" statement in JavaScript, we use the same logic and similar syntax, shown in the following code example:</li>
+          <ul>if (condition) {
+           // block of code to be executed if condition is truthy
+          } 
+         </ul>
+         <li>When the computer encounters an "if" statement in a JavaScript file, it will check to see if the condition that we provide is <strong>truthy</strong>. If it is, then it will do whatever action we ask it to do in between the curly brackets. If the condition isn’t true or has a value that isn’t <strong>truthy</strong>, then the computer will ignore whatever is in between the curly brackets and move on. </li>
+         <li>If you have more than one condition we can use the "else if"</li>
+         <li>We use "===" in each condition. The strict equality operator (===) checks to see if two values are equal, and returs a Boolean results "true" if the values are equal and "false" if the values are not equal.</li>
+         <li>A group of related data is called an <strong>array. </strong> </li>
+         <li> Use the (for) loop to perform a task on each piece of the data.</li>
+         <li>In JavaScript and many other programming languages, arrays are zero-indexed and sequential. This means that the first item in any array has an index of 0, not 1. The indices, or location identifiers, will always be whole numbers that increase by 1 each time.</li>
+         <li>A "for" loop contains the following 3 inportant statements</li>
+         <ul>The first statement determines the <strong>starting point of our loop.</strong></ul>
+         <ul>The second statement is the <strong>condition.</strong></ul>
+         <ul>The final statement is what allows the array to iterate over each item.</ul>
+         <li><strong>Commenting out code </strong> makes it inactive without deleting it, just in case you need it later.</li>
+         <ul> To comment out multiple lines of JavaScript code, put /* before and */ after the block of code.</ul>
+         <li>A <strong> function</strong> is simply a set of instructions that tells the computer how to perform a certain task.</li>
+         <ul>A function is different from a "for" loop or condidtional statement because functions do not automatically execute when the JavaScript file is run. Instead, you must call a function by name in order to execute it.</ul>
+         <ul> Always follow a function with parentheses ().</ul>
+         <li>To declare a function, we use the function keyword and then give our function a unique name followed by parentheses. Then we add curly brackets {} that contain the code for the task we want to perform. </li>
+         </ul>
 
       </section>
     </main> 
